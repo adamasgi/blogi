@@ -1,0 +1,44 @@
+:root {
+  --bg-main: #211a13;
+  --fg-main: #dee5ec;
+  --fg-link: #007fff;
+  --fg-link-hover: #ff8000;
+  --fg-border: #8dd9cc;
+
+  --accent-1: #ffffcc;
+  --accent-2: #8366f4;
+  --accent-3: #b768a2;
+  --accent-4: #8f9779;
+
+  --good: #319177;
+  --warn: #ff3503;
+  --error: #9d2b22;
+  --attention: #4aff00;
+}
+#copyright {
+  border: solid 3px var(--attention);
+}
+
+a {
+  color: var(--fg-link);
+  text-decoration: none;
+  transition: color 0.6s ease-in;
+}
+
+a:hover {
+  color: var(--fg-link-hover);
+}
+
+body {
+  background-color: var(--bg-main);
+  color: var(--fg-main);
+}
+
+main {
+  margin: 1% 24%;
+}
+
+header {
+  padding: 1%;
+  border-bottom: solid 4px var(--fg-border);
+}
