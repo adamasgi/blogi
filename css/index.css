@@ -1,11 +1,22 @@
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/Inter-VariableFont_slnt,wght.ttf") format("truetype");
+  font-style: normal;
+}
+@font-face {
+  font-family: "ShareTechMono";
+  src: url("/fonts/ShareTechMono-Regular.ttf") format("truetype");
+  font-style: normal;
+}
+
 :root {
   --bg-main: #0e0b08; /*#15110c; #211a13;*/
-  --fg-main: #dee5ec;
+  --fg-main: #f1f4f7; /*#dee5ec;*/
   --fg-link: #007fff;
   --fg-link-hover: #ff8000;
   --fg-border: #8dd9cc;
 
-  --accent-1: #ffffcc;
+  --accent-1: #ffffdd;
   --accent-2: #8366f4;
   --accent-3: #b768a2;
   --accent-4: #8f9779;
@@ -14,10 +25,28 @@
   --warn: #ff3503;
   --error: #9d2b22;
   --attention: #4aff00;
+
+  font-size: 17px;
+}
+
+header {
+  align-items: baseline;
+  border-bottom: solid 2px var(--fg-border);
+  display: flex;
+  justify-content: space-around;
+  padding: 1.5vmin;
+  top: 0;
+  width: 100%;
+}
+
+
+header h1 {
+  color: var(--accent-1);
+  flex-basis: 70%;
 }
 
 header img {
-  padding: 3px;
+  flex-basis: 20%;
 }
 
 a {
@@ -38,18 +67,25 @@ ul {
 body {
   background-color: var(--bg-main);
   color: var(--fg-main);
+  font-family: 'Inter', sans-serif;
 }
 
 main {
   margin: 1% 24%;
 }
 
-header {
-  padding: 1%;
-  border-bottom: solid 2px var(--fg-border);
+article p {
+  font-size: 1.1rem;
 }
 
 footer {
-  padding: 1%;
+  bottom: 0;
+  padding: 1.5vmin;
   border-top: solid 2px var(--fg-border);
+  width: 100%;
+}
+
+code {
+  font-family: "ShareTechMono", monospace;
+  font-size: 1.1rem;
 }
