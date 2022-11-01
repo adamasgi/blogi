@@ -1,5 +1,5 @@
 :root {
-  --bg-main: #211a13;
+  --bg-main: #0e0b08; /*#15110c; #211a13;*/
   --fg-main: #dee5ec;
   --fg-link: #007fff;
   --fg-link-hover: #ff8000;
@@ -15,8 +15,9 @@
   --error: #9d2b22;
   --attention: #4aff00;
 }
-#copyright {
-  border: solid 3px var(--attention);
+
+header img {
+  padding: 3px;
 }
 
 a {
@@ -27,6 +28,11 @@ a {
 
 a:hover {
   color: var(--fg-link-hover);
+}
+
+ul {
+  list-style-position: inside;
+  padding-left: 0;
 }
 
 body {
@@ -40,5 +46,10 @@ main {
 
 header {
   padding: 1%;
-  border-bottom: solid 4px var(--fg-border);
+  border-bottom: solid 2px var(--fg-border);
+}
+
+footer {
+  padding: 1%;
+  border-top: solid 2px var(--fg-border);
 }
