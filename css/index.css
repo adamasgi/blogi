@@ -34,7 +34,7 @@ header {
   border-bottom: solid 2px var(--fg-border);
   display: flex;
   justify-content: space-around;
-  padding: 1.5vmin;
+  padding: 1.5vmin 0;
   top: 0;
   width: 100vw;
 }
@@ -80,7 +80,7 @@ article p {
 
 footer {
   bottom: 0;
-  padding: 1.5vmin;
+  padding: 1.5vmin 0;
   border-top: solid 2px var(--fg-border);
   width: 100vw;
 }
