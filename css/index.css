@@ -36,7 +36,7 @@ header {
   justify-content: space-around;
   padding: 1.5vmin 0;
   top: 0;
-  width: 99vw;
+  width: 95vw;
 }
 
 
@@ -82,7 +82,7 @@ footer {
   bottom: 0;
   padding: 1.5vmin 0;
   border-top: solid 2px var(--fg-border);
-  width: 99vw;
+  width: 95vw;
 }
 
 code {
