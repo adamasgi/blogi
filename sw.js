@@ -1,5 +1,5 @@
 const addResourcesToCache = async (resources) => {
-  const cache = await caches.open("v5");
+  const cache = await caches.open("v6");
   await cache.addAll(resources);
 };
 
@@ -11,8 +11,8 @@ self.addEventListener("install", (event) => {
 	  "/css/index.css",
 	  "/favicon.ico",
 	  "/site.webmanifest",
-	  "/android-chrome-192x192.png",
-	  "/android-chrome-512x512.png"
+	  "/images/android-chrome-192x192.png",
+	  "/images/android-chrome-512x512.png"
     ])
   );
 });
