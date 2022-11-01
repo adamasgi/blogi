@@ -1,7 +1,7 @@
 {
   "name":"Blog.AdamAsgi.com",
   "short_name":"blog.adamasgi",
-  "start_url": ".",
+  "start_url": "/",
   "description": "A blog by AdamAsgi",
   "icons":[
 	{"src":"/images/android-chrome-192x192.png","sizes":"192x192","type":"image/png"},
