@@ -68,6 +68,7 @@ body {
   background-color: var(--bg-main);
   color: var(--fg-main);
   font-family: 'Inter', sans-serif;
+  overscroll-behavior-y: contain;
 }
 
 main {
