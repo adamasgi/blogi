@@ -18,7 +18,7 @@ self.addEventListener("install", (event) => {
       "/sw.js",
 	  "/css/index.css",
 	  "/site.webmanifest",
-    ],"v9")
+    ],"v10")
   );
   event.waitUntil(
     addResourcesToCache(staticResources, "static")
