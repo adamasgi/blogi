@@ -15,27 +15,7 @@
 	<link rel="pingback" href="https://webmention.io/blog.adamasgi.com/xmlrpc" />
 	<script data-goatcounter="https://aa22.goatcounter.com/count"
 			async src="//gc.zgo.at/count.js"></script>
-	<script>
-	 const registerServiceWorker = async () => {
-		 if ("serviceWorker" in navigator) {
-			 try {
-				 const registration = await navigator.serviceWorker.register("/sw.js", {
-					 scope: "/",
-				 });
-				 if (registration.installing) {
-					 console.log("Service worker installing");
-				 } else if (registration.waiting) {
-					 console.log("Service worker installed");
-				 } else if (registration.active) {
-					 console.log("Service worker active");
-				 }
-			 } catch (error) {
-				 console.error(`Registration failed with ${error}`);
-			 }
-		 }
-	 };
-	 registerServiceWorker();
-	</script>
+	<script src="/index.js"></script>
   </head>
   <body>
 	<header>
