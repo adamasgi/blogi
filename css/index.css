@@ -83,7 +83,7 @@ body {
 
 main p {
   font-size: clamp(17px , 2vmin, 18px);
-  line-height: clamp(1.7rem, 3vmin, 1.9rem);
+  line-height: clamp(1.6rem, 3vmin, 1.8rem);
 }
 
 
